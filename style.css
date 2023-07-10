@@ -71,25 +71,32 @@ font-weight: 400;
 margin-top: 25px;
 }
 /* flower */
-.flower-section{
+ .flower-section{
      display: flex;
     justify-content: center;
     margin-top: 50px;
     gap: 25px;
-}
+    
+} 
 .pink-tulips{
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
-padding-top: 20px;
+padding-top: 110px;
+
+
+
 }
 .variety-flower{
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
-padding-top: 80px;
-padding-left: 30px;
+padding-top: 50px;
+
+
 }
 .yellow-tulips{
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
-padding-top: 10px;
+padding-top: 65px;
+
+
 }
