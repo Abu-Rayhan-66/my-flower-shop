@@ -49,7 +49,7 @@ padding-bottom: 30px;
 .nav-img{
 width: 635px;
 height: 800px;
-padding-right: 240px;
+padding-right: 150px;
 
 }
 /* main section flower item */
@@ -90,6 +90,7 @@ padding-top: 110px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 padding-top: 50px;
+padding-bottom: 117px;
 
 
 }
@@ -100,3 +101,42 @@ padding-top: 65px;
 
 
 }
+
+.flower-tree{
+text-align: center;
+text-decoration-line: underline;
+color: #272727;
+font-size: 20px;
+margin-top: 30px;
+}
+
+/* service section */
+
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin:130px 240px 0px 240px ;
+    align-items: center;
+
+}
+.service-icon{
+    width: 85px;
+    height: 85px;
+    padding: 0px 200px 0px 200px;
+}
+
+    
+
+.service-tital{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
