@@ -1,7 +1,7 @@
-*{ margin: 0px;
-   padding: 0px;
+*{
+margin: 0px;
+padding: 0px;
 }
-
 .common-btn{
 color: #FFF;
 font-size: 20px;
@@ -12,57 +12,46 @@ border: 0px;
 padding: 20px 43px;
 }
  
-
 body{
-    font-family: 'Lato', sans-serif;
+font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
-
 /* nav section */
-
 .nav-container{
-    display: flex;
-    background: rgba(229, 84, 115, 0.10);
-    padding: 190px 0px 0px 240px;
-    gap: 90px;
-    
+display: flex;
+background: rgba(229, 84, 115, 0.10);
+padding: 190px 0px 0px 240px;
+gap: 90px;
 }
-
 .nav-tital{
 color: #272727;
 font-size: 70px;
 font-weight: 700;
 padding-bottom: 30px;
 } 
-
 .nav-info{
-    color: rgba(39, 39, 39, 0.60);
+color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
 padding-bottom: 30px;
-
 }
-
 .nav-img{
 width: 635px;
 height: 800px;
 padding-right: 150px;
-
 }
 /* main section flower item */
-
 .item-section{
-   text-align: center; 
-   margin-top: 180px;
+text-align: center; 
+margin-top: 180px;
 }
 .item-section-tital{
- color: #272727;
+color: #272727;
 font-size: 40px;
 font-weight: 700;
-
 }
 .item-section-info{
 color: rgba(39, 39, 39, 0.60);
@@ -71,37 +60,34 @@ font-weight: 400;
 margin-top: 25px;
 }
 /* flower */
- .flower-section{
-     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 25px;
-    
+.flower-section{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+gap: 20px; 
 } 
 .pink-tulips{
-    border-radius: 300px 300px 0px 0px;
+border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 padding-top: 110px;
-
-
-
+width: 464px;
+height: 538px;
 }
 .variety-flower{
-    border-radius: 300px 300px 0px 0px;
+border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 padding-top: 50px;
-padding-bottom: 117px;
-
-
+padding-bottom: 60px;
+width: 464px;
+height: 538px;
 }
 .yellow-tulips{
-    border-radius: 300px 300px 0px 0px;
+border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
-padding-top: 65px;
-
-
+padding-top: 110px;
+width: 464px;
+height: 538px;
 }
-
 .flower-tree{
 text-align: center;
 text-decoration-line: underline;
@@ -109,27 +95,22 @@ color: #272727;
 font-size: 20px;
 margin-top: 30px;
 }
-
 /* service section */
-
 .service-container{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
+display: flex;
+justify-content: space-between;
+border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
     height: 320px;
     margin:130px 240px 0px 240px ;
     align-items: center;
-
 }
 .service-icon{
     width: 85px;
     height: 85px;
     padding: 0px 200px 0px 200px;
 }
-
-    
 
 .service-tital{
     color: rgba(39, 39, 39, 0.80);
@@ -149,7 +130,6 @@ margin-top: 130px;
 gap:250px ;
 text-align: center;
 }
-
 .hot-deal-container{
 padding-left: 450px;
 }
@@ -157,7 +137,6 @@ padding-left: 450px;
 color: #272727;
 font-size: 40px;
 font-weight: 700;
-
 }
 span{
     color:#E55473 ;
@@ -169,7 +148,6 @@ font-weight: 400;
 line-height: 30px;
 padding-top: 25px;
 padding-bottom: 30px;
-
 }
 .hot-deal-img{
     width: 318px;
@@ -246,6 +224,34 @@ font-weight: 400;
     background: #FFF;
     border: 0;
 }
+.footer-section{
+    width: 1922px;
+height: 449px;
+background: #111010;
+text-align: center;
+margin-top: 130px;
+}
+.footer-tatal{
+color: #E55473;
+font-size: 48px;
+font-weight: 700;
+padding-top: 130px;
 
+}
+.footer-tatal-part{
+  color: #FFFFFF;  
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.copyright-info{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+padding-top: 50px;
+}
 
 
